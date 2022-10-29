@@ -1,6 +1,6 @@
 class Magazine
   attr_reader :name, :category
-  :@all = []
+  @@all = []
 
   def initialize(name, category)
     @name = name
